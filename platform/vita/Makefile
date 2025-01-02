@@ -8,7 +8,7 @@ LIBS = -lSDL2_mixer -lSDL2_image -lSDL2 -lpng -lwebp -ljpeg -lmikmod -lz -lm -lv
   -lmpg123 -ltaihen_stub -lkubridge_stub -lSceAppMgr_stub -lSceAppUtil_stub -lSceAudio_stub \
   -lSceAudioIn_stub -lSceCtrl_stub -lSceCommonDialog_stub -lSceDisplay_stub -lSceFios2_stub \
   -lSceGxm_stub -lSceLibcBridge_stub -lSceShaccCg_stub -lSceSysmodule_stub -lScePower_stub \
-  -lSceTouch_stub -lSceMotion_stub -lSceHid_stub -lSceVshBridge_stub -lSceKernelDmacmgr_stub
+  -lSceTouch_stub -lSceMotion_stub -lSceHid_stub -lSceVshBridge_stub -lSceKernelDmacMgr_stub
 
 CFILES   := $(foreach dir,$(SOURCES), $(wildcard $(dir)/*.c))
 CPPFILES   := $(foreach dir,$(SOURCES), $(wildcard $(dir)/*.cpp))
